@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <title>Credit Union</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="scripts/scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Best Bank</h1>
+        <p>You have <strong>$<span id="balance"></span></strong> dollars. So much money!</p>
+
+        <form id="transactions">
+            <label for="withdrawal">Withdrawal Amount</label>
+            <input type="number" name="withdrawal" id="withdrawal">
+            <label for="deposit">Deposit Amount</label>
+            <input type="number" name="deposit" id="deposit">
+            <button type="submit" id="submitTransactions">Get New Balance</button>
+        </form>
+        <!-- <form id="newAccount">
+            <h2>Register a New Bank Account</h2>
+            <label for="registration">Initial Deposit Amount</label>
+            <input type="number" name="registration" id="initialDeposit">
+            <button type="submit" id="createNewAccount">Register New Account</button>
+        </form> -->
+
+    </div>
+</body>
+</html>
